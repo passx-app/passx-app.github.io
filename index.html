@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <link rel="preload" as="image" href="images/iphonex1.webp">
+    <link rel="preload" as="image" href="images/iphonex2.webp">
+
     <!-- JSON-LD za SoftwareApplication -->
     <script type="application/ld+json">
     {
@@ -25,7 +28,7 @@
       "operatingSystem": "iOS",
       "description": "Create and add anything to Apple Wallet in seconds. Scan, customize, and simplify your life with PassX.",
       "downloadUrl": "https://apps.apple.com/us/app/apple-wallet/id6746327933",
-      "image": "URL_TO_YOUR_APP_ICON_OR_PROMO_IMAGE_HERE" // Npr. /images/passx-icon-512.png
+      "image": "https://passx-app.github.io/android-chrome-512x512.png"
     }
     </script>
 
@@ -76,7 +79,7 @@
             <h1>PassX: Your Wallet Pass Creator</h1>
             <p class="tagline">Simplify your life and keep all your important passes in one place - securely and conveniently in your Apple Wallet</p>
         </div>
-        <div class="img-holder mt-3"><img src="images/iphonex1.webp" alt="iphone" class="img-fluid"></div>
+        <div class="img-holder mt-3"><img src="images/iphonex1.webp" alt="iphone" class="img-fluid" fetchpriority="high"></div>
     </header>
 
     <div class="section light-bg" id="features">
@@ -108,10 +111,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <img src="images/iphonex2.webp" alt="iphone" class="img-fluid">
-                </div>
-
+                <div class="col-md-4"><img src="images/iphonex2.webp" alt="iphone" class="img-fluid" fetchpriority="high"></div>
             </div>
 
         </div>
