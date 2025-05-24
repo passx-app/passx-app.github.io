@@ -16,7 +16,7 @@ $(function() {
      * FIXED  MENU - HEADER
      *-----------------------------------*/
     function menuscroll() {
-        var $navmenu = $('.nav-menu');
+        let $navmenu = $('.nav-menu');
         if ($(window).scrollTop() > 50) {
             $navmenu.addClass('is-scrolling');
         } else {
@@ -37,7 +37,7 @@ $(function() {
     /* 
      * NAVBAR TOGGLE BG
      *-----------------*/
-    var siteNav = $('#navbar');
+    let siteNav = $('#navbar');
     siteNav.on('show.bs.collapse', function(e) {
         $(this).parents('.nav-menu').addClass('menu-is-open');
     })
@@ -53,7 +53,7 @@ $(function() {
         // On-page links
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             // Figure out element to scroll to
-            var target = $(this.hash);
+            let target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             // Does a scroll target exist?
             if (target.length) {
@@ -64,7 +64,7 @@ $(function() {
                 }, 1000, function() {
                     // Callback after animation
                     // Must change focus!
-                    var $target = $(target);
+                    let $target = $(target);
                     $target.focus();
                     if ($target.is(":focus")) { // Checking if the target was focused
                         return false;
