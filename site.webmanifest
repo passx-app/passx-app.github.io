@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "PassX: Wallet Pass Creator",
+    "short_name": "PassX",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
