@@ -71,6 +71,13 @@ h4 {
     color: #633991;
 }
 
+.faq-question {
+    font-size: 20px;
+    font-weight: 500;
+    color: #633991;
+    margin-bottom: 1rem;
+}
+
 h5 {
     font-size: 28px;
     font-weight: 300;
