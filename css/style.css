@@ -239,6 +239,10 @@ header {
     color: #FFF;
 }
 
+.landing-hero {
+    padding: 150px 0 90px;
+}
+
 .bg-gradient {
     background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
@@ -431,6 +435,19 @@ header {
 .use-case p {
     margin-bottom: 0;
     line-height: 1.7;
+}
+
+.use-case-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.related-links {
+    margin: 1rem auto 0;
+    max-width: 900px;
+    text-align: center;
+    line-height: 1.8;
 }
 
 
