@@ -2,13 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>PassX: Wallet Pass Creator</title>
+    <title>Apple Wallet Pass Generator App | PassX Wallet Pass Creator</title>
   
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Create and add anything to Apple Wallet in seconds. Scan, customize, and simplify your life with PassX.">
-    <meta name="keywords" content="PassX, Apple Wallet pass creator, digital pass maker, add to Apple Wallet, scan to wallet, barcode to Apple Wallet, QR to Apple Wallet, digital boarding pass, digital ticket, digital loyalty card, digital coupon, digital membership card, wallet pass generator, iOS wallet pass, iPhone wallet pass, declutter wallet, mobile wallet passes">
+    <meta name="description" content="Create Apple Wallet passes from barcodes and QR codes with PassX. Scan loyalty cards, membership cards, coupons, and tickets, customize them, and add them to Apple Wallet.">
+    <link rel="canonical" href="https://passx-app.github.io/">
+
+    <meta property="og:title" content="Apple Wallet Pass Generator App | PassX Wallet Pass Creator">
+    <meta property="og:description" content="Create Apple Wallet passes from barcodes and QR codes with PassX. Scan loyalty cards, membership cards, coupons, and tickets, customize them, and add them to Apple Wallet.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://passx-app.github.io/">
+    <meta property="og:image" content="https://passx-app.github.io/android-chrome-512x512.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Apple Wallet Pass Generator App | PassX Wallet Pass Creator">
+    <meta name="twitter:description" content="Create Apple Wallet passes from barcodes and QR codes with PassX. Scan loyalty cards, membership cards, coupons, and tickets, customize them, and add them to Apple Wallet.">
+    <meta name="twitter:image" content="https://passx-app.github.io/android-chrome-512x512.png">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="PassX">
@@ -23,17 +33,27 @@
     <link rel="preload" as="image" href="images/iphonex1.webp">
     <link rel="preload" as="image" href="images/iphonex2.webp">
 
-    <!-- JSON-LD za SoftwareApplication -->
+    <!-- JSON-LD for SoftwareApplication -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "PassX: Wallet Pass Creator",
+      "name": "PassX Wallet Pass Creator",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "iOS",
-      "description": "Create and add anything to Apple Wallet in seconds. Scan, customize, and simplify your life with PassX.",
-      "downloadUrl": "https://apps.apple.com/app/6746327933",
-      "image": "https://passx-app.github.io/android-chrome-512x512.png"
+      "description": "PassX helps iPhone users create Apple Wallet passes from barcodes and QR codes for loyalty cards, membership cards, coupons, tickets, and other everyday passes.",
+      "url": "https://passx-app.github.io/",
+      "downloadUrl": "https://apps.apple.com/us/app/passx-wallet-pass-creator/id6746327933",
+      "sameAs": "https://apps.apple.com/us/app/passx-wallet-pass-creator/id6746327933",
+      "image": "https://passx-app.github.io/android-chrome-512x512.png",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://apps.apple.com/us/app/passx-wallet-pass-creator/id6746327933"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Stefan Irovic"
+      }
     }
     </script>
 
@@ -67,9 +87,10 @@
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#use-cases">USE CASES</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#how-it-works">HOW IT WORKS</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
-                                <li class="nav-item"><a href="https://apps.apple.com/app/6746327933" target="_blank" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                                <li class="nav-item"><a href="#download" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -80,42 +101,109 @@
 
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
-            <h1>PassX: Your Wallet Pass Creator</h1>
-            <p class="tagline">Simplify your life and keep all your important passes in one place - securely and conveniently in your Apple Wallet</p>
+            <h1>Apple Wallet Pass Generator for iPhone</h1>
+            <p class="tagline">PassX helps you create Apple Wallet passes from barcodes and QR codes. Scan a card, customize the pass, and add it to Apple Wallet in seconds.</p>
+            <div class="hero-actions">
+                <a href="https://apps.apple.com/us/app/passx-wallet-pass-creator/id6746327933" target="_blank" rel="noopener" class="btn btn-light"><img src="images/appleicon.png" alt=""> Download on the App Store</a>
+                <a href="#how-it-works" class="btn btn-outline-light">Learn how it works</a>
+            </div>
         </div>
-        <div class="img-holder mt-3"><img src="images/iphonex1.webp" alt="iphone" class="img-fluid" fetchpriority="high"></div>
+        <div class="img-holder mt-3"><img src="images/iphonex1.webp" alt="PassX Apple Wallet pass creator on iPhone" class="img-fluid" fetchpriority="high"></div>
     </header>
 
-    <div class="section light-bg" id="features">
+    <div class="section" id="use-cases">
+        <div class="container">
+            <div class="section-title">
+                <small>WHAT YOU CAN CREATE</small>
+                <h2>Wallet passes for everyday cards and codes</h2>
+            </div>
+            <div class="row use-case-grid">
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Loyalty cards</h3>
+                        <p>Turn store rewards cards into Apple Wallet passes you can scan at checkout.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Membership cards</h3>
+                        <p>Create wallet passes for clubs, libraries, organizations, and member IDs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Coupons</h3>
+                        <p>Save coupon barcodes or QR codes in Wallet so they are ready when needed.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Event tickets</h3>
+                        <p>Keep ticket codes in Apple Wallet for faster access at the entrance.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Barcode passes</h3>
+                        <p>Scan or enter a barcode and build a clean pass around it.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>QR code passes</h3>
+                        <p>Add QR codes to Apple Wallet for check-ins, access, or quick scanning.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Store cards</h3>
+                        <p>Move frequently used shop cards out of your physical wallet.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="use-case">
+                        <h3>Gym or club cards</h3>
+                        <p>Keep access codes and member numbers easy to find on your iPhone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section light-bg" id="how-it-works">
 
         <div class="container">
+            <div class="section-title">
+                <small>HOW IT WORKS</small>
+                <h2>Create an Apple Wallet pass in three steps</h2>
+            </div>
             <div class="row">
                 <div class="col-md-8 d-flex align-items-center">
                     <ul class="list-unstyled ui-steps">
                         <li class="media">
                             <div class="circle-icon mr-4">1</div>
                             <div class="media-body">
-                                <h2 style="font-size: 30px;">Choose a Template</h2>
-                                <p>Select one of sleek and practical templates that best suits your pass type. We're always adding new ones!</p>
+                                <h3>Scan or enter a barcode/QR code</h3>
+                                <p>Use your iPhone camera to scan a card, coupon, ticket, or code, or enter the value manually when scanning is not available.</p>
                             </div>
                         </li>
                         <li class="media my-4">
                             <div class="circle-icon mr-4">2</div>
                             <div class="media-body">
-                                <h2 style="font-size: 30px;">Edit and Scan</h2>
-                                <p>Easily scan barcode (or QR code) from various sources, then effortlessly edit and fully customize your pass by entering or modifying all key details like name, date, ID, etc.</p>
+                                <h3>Customize your wallet pass</h3>
+                                <p>Choose a pass style, add useful details, and make the pass easy to recognize when you open Apple Wallet.</p>
                             </div>
                         </li>
                         <li class="media">
                             <div class="circle-icon mr-4">3</div>
                             <div class="media-body">
-                                <h2 style="font-size: 30px;">Add to Wallet</h2>
-                                <p>With a single tap, your new digital pass is ready and added to your Apple Wallet, accessible whenever you need it.</p>
+                                <h3>Add it to Apple Wallet</h3>
+                                <p>Save the finished pass to Apple Wallet and keep it available on your iPhone whenever you need to scan it.</p>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4"><img src="images/iphonex2.webp" alt="iphone" class="img-fluid" fetchpriority="high"></div>
+                <div class="col-md-4"><img src="images/iphonex2.webp" alt="Apple Wallet pass customization in PassX" class="img-fluid" fetchpriority="high"></div>
             </div>
 
         </div>
@@ -131,32 +219,38 @@
 
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h4 class="mb-3">Does PassX collect any personal data?</h4>
-                    <p class="light-font mb-5">No. PassX does <b>not any personally identifiable information</b>. The only data collected is anonymous crash reporting, which helps improve the app's performance and stability.</p>
-                    <h4 class="mb-3">Is my information stored anywhere?</h4>
-                    <p class="light-font mb-5">No. Your pass data stays entirely on your device. When you add a pass to Apple Wallet, <b>PassX sends only anonymous metadata</b> to a secure server for cryptographic signing. This data is meaningless and never stored or logged.</p>
-
+                    <h4 class="mb-3">What is an Apple Wallet pass generator?</h4>
+                    <p class="light-font mb-5">An Apple Wallet pass generator helps create a pass file that can be added to Apple Wallet. PassX makes this practical on iPhone by turning barcode and QR code information into compatible wallet passes.</p>
+                    <h4 class="mb-3">Can I create Apple Wallet passes from barcodes?</h4>
+                    <p class="light-font mb-5">Yes. PassX can create Apple Wallet passes from many common barcode types. You can scan a barcode with your iPhone or enter the code manually.</p>
+                    <h4 class="mb-3">Can I add QR codes to Apple Wallet?</h4>
+                    <p class="light-font mb-5">Yes. PassX supports QR code passes, so you can keep QR-based cards, coupons, tickets, and access codes in Apple Wallet.</p>
+                    <h4 class="mb-3">Can I create loyalty cards for Apple Wallet?</h4>
+                    <p class="light-font mb-5">Yes. PassX is useful for creating Apple Wallet passes for loyalty cards, store cards, membership cards, and similar everyday cards.</p>
                 </div>
                 <div class="col-md-6">
-                    <h4 class="mb-3">Is it safe to use PassX for personal or sensitive cards?</h4>
-                    <p class="light-font mb-5">Yes. PassX was built with <b>privacy and security in mind</b>. All processing happens locally, except for the required signing step, which is handled securely. Your passes are never stored on external servers.</p>
-                    <h4 class="mb-3">Why does PassX require a server to sign passes?</h4>
-                    <p class="light-font mb-5">Apple Wallet requires passes to be <b>cryptographically signed</b> with a private key before being accepted. This key must be kept secure and <b>cannot be stored on the device</b>, which is why a minimal amount of anonymous metadata is sent to a signing server. Nothing sensitive is included, and nothing is stored.</p>
-
+                    <h4 class="mb-3">Does PassX work on iPhone?</h4>
+                    <p class="light-font mb-5">Yes. PassX is an iOS app for iPhone and creates passes that are compatible with Apple Wallet.</p>
+                    <h4 class="mb-3">Is PassX an official Apple app?</h4>
+                    <p class="light-font mb-5">No. PassX is not an official Apple app. It helps users create compatible passes for Apple Wallet on iPhone.</p>
+                    <h4 class="mb-3">Do I need a business account to create passes?</h4>
+                    <p class="light-font mb-5">No. PassX is designed for individual iPhone users who want to create wallet passes from their own barcodes, QR codes, and card details.</p>
+                    <h4 class="mb-3">Is my information stored anywhere?</h4>
+                    <p class="light-font mb-5">Your pass data stays on your device. When a pass is added to Apple Wallet, PassX sends only anonymous metadata to a secure server for the required signing step, and it is not stored or logged.</p>
                 </div>
             </div>
         </div>
 
     </div>
 
-    <div class="section bg-gradient">
+    <div class="section bg-gradient" id="download">
         <div class="container">
             <div class="call-to-action">
                 <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                <h2>Thanks for Choosing PassX</h2>
-                <p class="tagline">This app was built to make your life a little easier - no ads, no tracking, just useful tool.<br />I'm glad you're here!</p>
+                <h2>Download PassX for iPhone</h2>
+                <p class="tagline">Create Apple Wallet passes from barcodes and QR codes, then keep them ready on your iPhone.</p>
                 <div class="my-4">
-                    <a href="https://apps.apple.com/app/6746327933" target="_blank" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
+                    <a href="https://apps.apple.com/us/app/passx-wallet-pass-creator/id6746327933" target="_blank" rel="noopener" class="btn btn-light"><img src="images/appleicon.png" alt=""> Download on the App Store</a>
                 </div>
             </div>
         </div>
